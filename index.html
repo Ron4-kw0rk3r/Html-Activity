@@ -13,32 +13,90 @@
     <!-- cuerpo de contenido -->
 </head>
 <body>
-    <header style="border-color: black;">
-        <h1 class="demo" style="margin: 10px; padding-top: 30px;"><spam style="color: blue;">HT-Lights</spam> Conocimientos sobre <spam style="color: orange;">Web</spam></h1>
+    <header style="background-color: #fde0a8 ;">
+        <h1 class="demo" style="color: black;"><span style="color: blue;">HT-Lights</span> Conocimientos sobre <span style="color: orange;">Web</span></h1>
+        <nav>
+            <ul>
+                <li><a href="/templates/about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="card-container">
-        <div class="card" id="card1">
-            <p><em>HTML: Hyper Text Markup Lenguaje es el lenguaje estándar para crear páginas web, este lenguaje de etiquetas permite crear el cuerpo de una pagina web.</p>
-            <button onclick="changeColor('card1')">Cambiar Color</button>
-        </div>
-        <br>
-        <div class="card" id="card2">
-            <p>HTML utiliza etiquetas para estructurar el contenido.</p>
-            <button onclick="changeColor('card2')">Cambiar Color</button>
-        </div>
-        <br>
-        <div class="card" id="card3">
-            <p>Las etiquetas HTML pueden tener atributos que proporcionan información adicional.</p>
-            <button onclick="changeColor('card3')">Cambiar Color</button>
-        </div>
-        <br>
-        <div class="card" id="card4">
-            <p>HTML5 introdujo nuevas etiquetas y funcionalidades.</p>
-            <button onclick="changeColor('card4')">Cambiar Color</button>
-        </div>
-        <br>
+
+    <div class="intro">
+        <p><em>Hola mi nombre es Ronald, en esta página te explico sobre HTML: Conocimientos en pasos simples. ¡Continúa leyendo para aprender más!</em></p>
     </div>
 
+    <div class="card-container">
+        <div class="card" id="card1">
+            <p><em>HTML: HyperText Markup Language es el lenguaje estandar para crear paginas web. Este lenguaje de etiquetas permite crear el cuerpo de una pagina web base.</em></p>
+            <button onclick="changeColor('card1')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card2">
+            <p><em>HTML utiliza etiquetas para estructurar el contenido. Las etiquetas están delimitadas por corchetes angulares por ejemplo: (&lt;etiqueta&gt;).</em></p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card2')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card3">
+            <p><em> Las etiquetas HTML pueden tener atributos que proporcionan información adicional sobre el elemento. Por ejemplo, el atributo href en un enlace.</em></p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card3')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card4">
+            
+            <p><em>HTML5 introdujo nuevas etiquetas y funcionalidades como &lt;article&gt;, &lt;section&gt; y APIs avanzadas para gráficos y multimedia.</em></p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card4')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card5">
+            <p><em>El DOCTYPE en HTML5 es mucho más sencillo: &lt;!DOCTYPE html&gt;. Se coloca al inicio del documento.</em></p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card5')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card6">
+            <p><em> HTML es independiente de plataformas, lo que permite que las páginas se visualicen en cualquier navegador web.</em></p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card6')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card7">
+            <p>HTML trabaja en conjunto con CSS y JavaScript para crear páginas web interactivas y estilizadas.</p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card7')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card8">
+            <p>Las etiquetas semánticas de HTML5 mejoran la accesibilidad y el SEO de las páginas web.</p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card8')">Cambiar Color</button>
+        </div>
+        <div class="card" id="card9">
+            <p>HTML5 soporta multimedia nativa mediante las etiquetas &lt;audio&gt; y &lt;video&gt; sin necesidad de plugins externos.</p>
+            <!-- procede a cmabiar el color de la carta -->
+            <button onclick="changeColor('card9')">Cambiar Color</button>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div>
+            <section>
+                <p>
+                    <em>Aquí te explico algunos comandos y etiquetas utilizadas para construir esta página:</em>
+                    <ul>
+                        <li><em>&lt;div&gt;:&nbsp;</em>Define una sección de la página.</li>
+                        <li><em>&lt;section&gt;:&nbsp;</em>Define una sección temática en la página.</li>
+                        <li><em>&lt;p&gt;:&nbsp;</em>Define un párrafo de texto.</li>
+                        <li><em>&lt;em&gt;:&nbsp;</em>Convierte en cursiva el texto.</li>
+                        <li><em>&lt;h1&gt;:&nbsp;</em>los h1 ,2,3,... por lo general el h1 se declara para titulos , el h2 para subtiulos y asi sucesivamente.</li>
+                        <li><em>&lt;br&gt;:&nbsp;</em>Define un salto de linea.</li>
+                        <li><em>&lt;header&gt;:&nbsp;</em>Cabezera de titulo.</li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados para HT-light.com</p>
+    </footer>
     <script>
         function changeColor(cardId) {
             const colors = ['lightblue', 'lightgreen', 'lightpink', 'lightyellow', 'lightgray'];
