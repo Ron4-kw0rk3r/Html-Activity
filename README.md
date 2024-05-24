@@ -23,7 +23,7 @@ Este proyecto incluye ejemplos básicos de HTML y CSS que cubren los siguientes 
 Aquí hay algunas imágenes del proyecto:
 
 ![Pagina Base](res/av1.png)
-![Pie_Pagina](res/av2.png.png)
+![Pie_Pagina](res/av2.png)
 
 ## Etiquetas
 
