@@ -1,7 +1,7 @@
 # Html-Activity
-# HTML y CSS Conceptos de aprendisaje Basicos
+# HTML y CSS Conceptos de aprendizaje Basicos
 
-En este repositorio encontrarás información y ejemplos sobre HTML y CSS para principiantes. ¡Espero que encuentres útiles los recursos aquí proporcionados!
+En este repositorio se encuentra información y ejemplos sobre HTML y CSS Demo.
 
 ## Contenido del Repositorio
 
@@ -12,7 +12,7 @@ En este repositorio encontrarás información y ejemplos sobre HTML y CSS para p
 
 ## Ejemplos de HTML y CSS
 
-Este proyecto incluye ejemplos básicos de HTML y CSS que cubren los siguientes temas:
+Repo de Contenido: incluye ejemplos básicos de HTML y CSS que cubren los siguientes temas:
 
 - Estructura básica de HTML
 - Uso de etiquetas HTML como `<div>`, `<p>`, `<h1>`, etc.
