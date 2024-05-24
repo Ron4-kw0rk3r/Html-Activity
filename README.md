@@ -1,5 +1,5 @@
 # Html-Activity
-# Bienvenido a mi proyecto sobre HTML y CSS
+# HTML y CSS Conceptos de aprendisaje Basicos
 
 En este repositorio encontrarás información y ejemplos sobre HTML y CSS para principiantes. ¡Espero que encuentres útiles los recursos aquí proporcionados!
 
@@ -8,7 +8,7 @@ En este repositorio encontrarás información y ejemplos sobre HTML y CSS para p
 - `index.html`: Archivo principal HTML con ejemplos básicos de HTML y CSS.
 - `styles.css`: Archivo CSS con estilos para el archivo HTML.
 - `about.html`: Página "Acerca de" con información sobre este proyecto.
-- `images/`: Carpeta que contiene las imágenes utilizadas en la documentación.
+- `res/`: Carpeta que contiene las imágenes utilizadas en la documentación.
 
 ## Ejemplos de HTML y CSS
 
