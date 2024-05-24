@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lightbloom', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 5px solid black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.intro {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+    color: darkblue;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    width: 80%;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.card p {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #444;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    border-top: 5px solid black;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0 0 10px 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}

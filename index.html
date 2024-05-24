@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colores-HTML</title>
+    <title>HT-Lights Conocimientos sobre Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lightbloom&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+
+
+    <!-- cuerpo de contenido -->
 </head>
 <body>
+    <header style="border-color: black;">
+        <h1 class="demo" style="margin: 10px; padding-top: 30px;"><spam style="color: blue;">HT-Lights</spam> Conocimientos sobre <spam style="color: orange;">Web</spam></h1>
+    </header>
+    <div class="card-container">
+        <div class="card" id="card1">
+            <p><em>HTML: Hyper Text Markup Lenguaje es el lenguaje estándar para crear páginas web, este lenguaje de etiquetas permite crear el cuerpo de una pagina web.</p>
+            <button onclick="changeColor('card1')">Cambiar Color</button>
+        </div>
+        <br>
+        <div class="card" id="card2">
+            <p>HTML utiliza etiquetas para estructurar el contenido.</p>
+            <button onclick="changeColor('card2')">Cambiar Color</button>
+        </div>
+        <br>
+        <div class="card" id="card3">
+            <p>Las etiquetas HTML pueden tener atributos que proporcionan información adicional.</p>
+            <button onclick="changeColor('card3')">Cambiar Color</button>
+        </div>
+        <br>
+        <div class="card" id="card4">
+            <p>HTML5 introdujo nuevas etiquetas y funcionalidades.</p>
+            <button onclick="changeColor('card4')">Cambiar Color</button>
+        </div>
+        <br>
+    </div>
 
-    
-    
+    <script>
+        function changeColor(cardId) {
+            const colors = ['lightblue', 'lightgreen', 'lightpink', 'lightyellow', 'lightgray'];
+            const card = document.getElementById(cardId);
+            const currentColor = card.style.backgroundColor;
+            let newColor = colors[Math.floor(Math.random() * colors.length)];
+            while (newColor === currentColor) {
+                newColor = colors[Math.floor(Math.random() * colors.length)];
+            }
+            card.style.backgroundColor = newColor;
+        }
+    </script>
 </body>
 </html>
